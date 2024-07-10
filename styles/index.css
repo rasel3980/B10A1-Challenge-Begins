@@ -1,29 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-* {
-    margin: 0px;
-    padding: 0px;
+
+
+body{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.header1{
+    font-size: 24px;
+}
+.btn1{
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+.download-name{
+    font-weight: bold;
+    font-size: 18px;
 }
 #hero{
-    height: 652px;
     background-image: url('../assets/Hero-bg.png');
-    background-size: cover;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    height: 650px;
+    border: 2px dotted;
 }
 .hero-content{
-    font-size: 48px;
-    font-weight: 800px;
+    /* width: 100%; */
     text-align: center;
-    letter-spacing: 0%;
-    color: rgb(13, 19, 33);
+}
+.title{
+    font-size: 62px;
+    
+    text-align: center;
+    margin-bottom: 20px;
 }
 .description{
-    opacity: 0.7;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
-    color: rgb(13, 19, 33);
+    padding: 10px 150px;
+}
+.group{
+    margin-top: 30px;
+}
+.btn{
+    background-color: black;
+    border-radius: 8px;
+    padding: 18px;
+}
+.clr{
+    color: white;
+    font-size: 24px;
+}
+.section1{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.header_bold{
+    font-weight: bold;
+    font-size: 44px;
+}
+.header-1{
+    padding-left: 20px;
+    padding-right: 400px;
+}
+.padding{
+    padding: 80px 97px;
+    border: 2px blueviolet dotted;
+    margin-top: 100px;
+}
+.coding{
+    display: flex;
+    background-color:aliceblue;
+    padding: 20px;
+}
+.layer{
+    width: 100%;
+    padding: 20px;
+
+}
+.layer-div{
+    width: 50%;
+}
+.side-padding{
+    padding-right: 40%;
+}
+.btn2{
+    border-radius: 8px;
+    padding: 18px;
+}
+.btn-name{
+    font-size: 24px ;
+    font-weight: bold;
+}
+.modern{
+    text-align: center;
+    
+}
+.Web-System{
+    display: flex;
+    padding: 80px 97px;
+    background-color: aliceblue;
+}
+.side-padding1{
+    margin-left: 15%;
+}
+.header-2{
+    font-size: 24px;
 }
