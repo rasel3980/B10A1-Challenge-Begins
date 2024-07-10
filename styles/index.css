@@ -110,3 +110,41 @@ body{
 .header-2{
     font-size: 24px;
 }
+.txt-center{
+    text-align: center;
+    padding: 100px;
+}
+.side-padding3{
+    padding: 0px 144px;
+}
+.header4{
+    font-size: 32px;
+}
+.txt-center1{
+    text-align: center;
+}
+.txt-center4{
+    text-align: center;
+}
+.side-padding4{
+    padding:0px 144px;
+}
+/* .card-a{
+    display: flex;
+    background-color: blanchedalmond;
+}
+.card{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+} */
+.web-heading{
+    text-align: center;
+}
+.pd{
+    padding: 0px 20%;
+}
+.card-design{
+    display: flex;
+    justify-content: space-around;
+}
