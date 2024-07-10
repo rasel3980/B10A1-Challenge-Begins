@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    height: 652px;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hero-content{
+    font-size: 48px;
+    font-weight: 800px;
+    text-align: center;
+    letter-spacing: 0%;
+    color: rgb(13, 19, 33);
+}
+.description{
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
